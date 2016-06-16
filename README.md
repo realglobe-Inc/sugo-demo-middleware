@@ -69,6 +69,8 @@ $ npm install sugo-demo-middleware --save
 Usage
 ---------
 
+Apply middleware to sg-server, which is internally use by sugo-cloud.
+
 ```javascript
 /** This is an example to use sugo-demo-middleware */
 
@@ -78,11 +80,13 @@ const sgServer = require('sg-server')
 
 const server = sgServer({
   middlewares: [
-    // Map url and handlers.
     require('sugo-demo-middleware')({
       // Options
     })
-  ]
+  ],
+  routes: {
+    /* ... */
+  }
 })
 
 server.listen(3000)

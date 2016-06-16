@@ -6,11 +6,13 @@ const sgServer = require('sg-server')
 
 const server = sgServer({
   middlewares: [
-    // Map url and handlers.
     require('sugo-demo-middleware')({
       // Options
     })
-  ]
+  ],
+  routes: {
+    /* ... */
+  }
 })
 
 server.listen(3000)
