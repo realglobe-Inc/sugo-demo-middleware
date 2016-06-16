@@ -1,6 +1,6 @@
 {
   "name": "sugo-demo-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Demo of sugo middleware",
   "main": "lib",
   "scripts": {
