@@ -112,7 +112,7 @@ const server = sgServer({
       // Options
     })
   ],
-  routes: {
+  endpoints: {
     /* ... */
   }
 })
