@@ -33,3 +33,10 @@ node_modules
 .DS_Store
 tmp
 
+# SUGOS
+.*
+tmp
+ci
+doc
+example
+test
