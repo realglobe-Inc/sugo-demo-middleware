@@ -38,7 +38,7 @@
     "injectmock": "^2.0.0",
     "sg-server": "^1.3.1",
     "sg-travis": "^1.1.27",
-    "sugo-ci-middleware": "^1.0.4",
+    "sugo-ci-middleware": "^1.0.5",
     "sugos-assets": "^2.0.3"
   },
   "engines": {
